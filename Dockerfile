@@ -10,4 +10,4 @@ COPY . /usr/share/nginx/html/
 # expose the port on 80
 EXPOSE 80
 
-CMD ["nginx" , "nginx" , "daemon off;"]
+CMD ["nginx" , "-g" , "daemon off;"]
